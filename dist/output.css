@@ -594,6 +594,14 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
 .bg-DarkBlue {
   --tw-bg-opacity: 1;
   background-color: hsl(218 23% 16% / var(--tw-bg-opacity));

@@ -14,7 +14,7 @@ diceBtn.addEventListener("click", () => {
       let dataAdvice = data.advice;
 
       //Inject to DOM
-      adviceNumber.innerHTML = `advice # ${dataId}`;
-      adviceText.innerHTML = dataAdvice;
+      adviceNumber.innerHTML = `advice  # ${dataId}`;
+      adviceText.innerHTML = `"${dataAdvice}"`;
     });
 });
